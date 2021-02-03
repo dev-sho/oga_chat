@@ -1,0 +1,3 @@
+GRANT ALL PRIVILEGES ON oga_chat TO 'oga_chat'@'%';
+
+FLUSH PRIVILEGES;
