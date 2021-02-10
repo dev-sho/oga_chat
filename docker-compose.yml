@@ -33,12 +33,13 @@ services:
 
     python:
         build: ./python
-        command: uwsgi --socket :8001 --module app.wsgi --py-autoreload 1 --logto /tmp/mylog.log
+        command: 'sh /code/start-python.sh'
         volumes:
             - ./src:/code
             - ./static:/static
         expose:
             - "8001"
+            - "3001"
         depends_on:
             - db
             - redis

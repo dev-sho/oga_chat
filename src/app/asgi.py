@@ -23,6 +23,6 @@ from channels.auth import AuthMiddlewareStack
 import chat.routing
 
 application = ProtocolTypeRouter( {
-    'http': django_asgi_app,
+    'http': get_asgi_application(),
     'websocket': AuthMiddlewareStack( URLRouter( chat.routing.websocket_urlpatterns ) ),
 } )

@@ -1,0 +1,4 @@
+2021/02/03 21:10:38 [emerg] 1#1: host not found in upstream "django:3001" in /etc/nginx/conf.d/app_nginx.conf:8
+2021/02/03 21:25:57 [emerg] 1#1: host not found in upstream "python:8001" in /etc/nginx/conf.d/app_nginx.conf:3
+2021/02/03 21:34:29 [emerg] 1#1: host not found in upstream "python:8001" in /etc/nginx/conf.d/app_nginx.conf:3
+2021/02/10 20:30:46 [error] 8#8: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: 127.0.0.1, request: "GET /ws/chat/ HTTP/1.1", upstream: "http://172.19.0.5:3001/chat/", host: "127.0.0.1:8000"

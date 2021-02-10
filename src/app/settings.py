@@ -143,5 +143,3 @@ CHANNEL_LAYERS = {
         'CONFIG': { 'hosts': [('redis', 6379)], },
     },
 }
-
-ASGI_APPLICATION = 'app.asgi.application'
