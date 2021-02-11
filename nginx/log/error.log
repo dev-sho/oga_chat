@@ -2,3 +2,6 @@
 2021/02/03 21:25:57 [emerg] 1#1: host not found in upstream "python:8001" in /etc/nginx/conf.d/app_nginx.conf:3
 2021/02/03 21:34:29 [emerg] 1#1: host not found in upstream "python:8001" in /etc/nginx/conf.d/app_nginx.conf:3
 2021/02/10 20:30:46 [error] 8#8: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: 127.0.0.1, request: "GET /ws/chat/ HTTP/1.1", upstream: "http://172.19.0.5:3001/chat/", host: "127.0.0.1:8000"
+2021/02/11 17:52:35 [error] 7#7: *13 recv() failed (104: Connection reset by peer) while proxying upgraded connection, client: 172.18.0.1, server: 127.0.0.1, request: "GET /ws/chat/ HTTP/1.1", upstream: "http://172.18.0.4:3001/ws/chat/", host: "127.0.0.1:8000"
+2021/02/11 17:52:42 [error] 7#7: *17 recv() failed (104: Connection reset by peer) while proxying upgraded connection, client: 172.18.0.1, server: 127.0.0.1, request: "GET /ws/chat/ HTTP/1.1", upstream: "http://172.18.0.4:3001/ws/chat/", host: "127.0.0.1:8000"
+2021/02/11 18:01:12 [error] 8#8: *4 recv() failed (104: Connection reset by peer) while proxying upgraded connection, client: 172.20.0.1, server: 127.0.0.1, request: "GET /ws/chat/ HTTP/1.1", upstream: "http://172.20.0.4:3001/ws/chat/", host: "127.0.0.1:8000"
